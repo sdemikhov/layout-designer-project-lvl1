@@ -47,16 +47,17 @@ header nav ul li {
     display: flex;
     align-items: center;
     flex: 1;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
 }
 
-.logo-container span {
+/*.logo-container span {
     border: 1em solid white;
-}
+}*/
 
 .logo {
     width: 50px;
     height: 50px;
+    padding: 10px;
 }
 
 .big-logo {
@@ -137,10 +138,6 @@ footer {
     max-width: 300px;
 }
 
-.form-order {
-    
-}
-
 .form-row {
     display: flex;
     flex-direction: row;
@@ -213,4 +210,35 @@ footer {
 
 .f-size-24 {
     font-size: 24px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.bg-303846 {
+    background: #303846;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.color-white {
+    color: white;
+}
+
+.p-top-50 {
+    padding-top:50px;
+}
+
+.p-bottom-50 {
+    padding-bottom:50px;
 }
