@@ -70,7 +70,8 @@ header nav ul li {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom:  50px;
     background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
@@ -143,6 +144,7 @@ footer {
 .form-row {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .form-column {
@@ -154,12 +156,20 @@ footer {
     flex-direction: row-reverse;
 }
 
-.width-250 {
+.width-200 {
     width: 200px;
 }
 
-.b-radius-5 {
-    border-radius: 5px;
+.width-150 {
+    width: 150px;
+}
+
+.height-30 {
+    height: 30px;
+}
+
+.b-radius-10 {
+    border-radius: 10px;
 }
 
 .b-style-solid {
@@ -189,4 +199,14 @@ footer {
 .btn-49dcc0 {
     border-color: #49dcc0;
     color: #49dcc0;
+}
+
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-size-14 {
+    font-size: 14px;
 }
