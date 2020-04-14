@@ -117,6 +117,7 @@ footer {
 
 .main-section-content {
     display: flex;
+    align-items: flex-start;
     width: 1000px;
     list-style: none;
     line-height: 150%; 
