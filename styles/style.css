@@ -88,6 +88,14 @@
 
 
 /* padding */
+.p-5 {
+    padding: 5px;
+}
+
+.p-right-10{
+    padding-right: 10px;
+}
+
 .p-top-50 {
     padding-top: 50px;
 }
@@ -104,6 +112,10 @@
 /* margin */
 .m-0 {
     margin: 0
+}
+
+.m-5 {
+    margin: 5px;
 }
 /* end */
 
@@ -150,6 +162,13 @@
 /* end */
 
 
+/* lists */
+.l-style-none {
+    list-style: none;
+}
+/* end */
+
+
 /* objects */
 .logo {
     width: 50px;
@@ -188,31 +207,9 @@
   box-sizing: border-box;
 }
 
-/* end */
-
-
-
-header {
-    display: flex;
-    align-items: center;
+.header {
     position: fixed;
     top: 0px;
     height: 70px;
-    width: 100%;
-    background: white;
 }
-
-header nav ul {
-    display: flex;
-    list-style: none;
-    flex: 1;
-    padding-right: 10px;
-}
-
-header nav ul li {
-    padding: 5px;
-}
-
-main * {
-    margin: 5px;
-}
+/* end */
