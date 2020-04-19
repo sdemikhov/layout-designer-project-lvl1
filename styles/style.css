@@ -110,6 +110,10 @@
 /* end */
 
 /* margin */
+.m-top-0 {
+    margin-top: 0px;
+}
+
 .m-0 {
     margin: 0
 }
@@ -169,6 +173,13 @@
 /* end */
 
 
+/* links */
+.t-decor-none {
+    text-decoration: none;
+}
+/* end */
+
+
 /* objects */
 .logo {
     width: 50px;
@@ -185,13 +196,13 @@
     border-radius: 15px;
 }
 
-.container {
+.large-img-section {
     background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
 }
 
-.main-section-content {
+.section-content {
     align-items: flex-start;
     width: 1000px;
     list-style: none;
@@ -212,4 +223,15 @@
     top: 0px;
     height: 70px;
 }
+
+.nav-link {
+}
+
+.nav-link:link { color: #303846; }
+
+.nav-link:visited { color: #303846; }
+
+.nav-link:hover { color: black; }
 /* end */
+
+

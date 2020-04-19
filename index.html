@@ -16,21 +16,21 @@
         </div>
         <nav>
             <ul class="d-flex flex-1 l-style-none p-right-10 color-303846">
-                <li class="p-5">Преимущества</li>
-                <li class="p-5">О ЖК</li>
-                <li class="p-5">Место для отдыха</li>
+                <li class="p-5"><a class="nav-link t-decor-none" href="#advantages">Преимущества</a></li>
+                <li class="p-5"><a class="nav-link t-decor-none" href="#about">О ЖК</a></li>
+                <li class="p-5"><a class="nav-link t-decor-none" href="#location">Место для отдыха</a></li>
             </ul>
         </nav>
     </header>
     <main class="d-flex flex-1 f-dir-column js-cont-center al-items-center f-size-16 p-top-70 color-white">
-        <section class="container d-flex f-dir-column js-cont-center al-items-center width-100pers p-top-50 p-bottom-50">
+        <section class="large-img-section d-flex f-dir-column js-cont-center al-items-center width-100pers p-top-50 p-bottom-50">
             <img class="m-width-150" src="images/logo.svg" alt="moon-sea-logo">
             <h1>ЖК «Лунное море»</h1>
             <p><strong>Место, откуда не хочется улетать</strong></p>
-            <button class="btn d-flex js-cont-center al-items-center b-color-white color-white"><strong>Забронировать</strong></button>
+            <a class="btn-link t-decor-none" href="#order"><div class="btn d-flex js-cont-center al-items-center b-color-white color-white"><strong>Забронировать</strong></div></a>
         </section>
-        <section class="d-flex js-cont-center al-items-center width-100pers m-0 color-303846 bg-white">
-            <ul class="main-section-content d-flex width-100pers">
+        <section id="advantages" class="d-flex js-cont-center al-items-center width-100pers m-0 color-303846 bg-white">
+            <ul class="section-content d-flex width-100pers">
                 <li class="content-item d-flex f-dir-column js-cont-center">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -45,10 +45,10 @@
                 </li>
             </ul>
         </section>
-        <section class="d-flex js-cont-center al-items-center width-100pers m-0 color-303846 bg-f7f7f7">
-            <ul class="main-section-content d-flex width-100pers">
+        <section id="about" class="d-flex js-cont-center al-items-center width-100pers m-0 color-303846 bg-f7f7f7">
+            <ul class="section-content d-flex width-100pers">
                 <li class="content-item d-flex f-dir-column js-cont-center">
-                    <h2>О ЖК «Лунное море»</h2>
+                    <h2 class="m-top-0">О ЖК «Лунное море»</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
                     <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
                 </li>
@@ -58,19 +58,19 @@
                 </li>
             </ul>
         </section>
-        <section class="d-flex js-cont-center al-items-center width-100pers m-0 color-303846 bg-white">
-            <ul class="main-section-content d-flex width-100pers">
+        <section id="location" class="d-flex js-cont-center al-items-center width-100pers m-0 color-303846 bg-white">
+            <ul class="section-content d-flex width-100pers">
                 <li class="content-item d-flex f-dir-column js-cont-center">
                     <img class="m-width-300" src="images/moon-2.jpg" alt="relaxing spaceman">
                 </li>
                 <li class="content-item d-flex f-dir-column js-cont-center">
-                    <h2>Места для отдыха</h2>
+                    <h2 class="m-top-0">Места для отдыха</h2>
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
                     <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
                 </li>
             </ul>
         </section>
-        <section class="d-flex js-cont-center al-items-center width-100pers m-0 color-303846 bg-f7f7f7">
+        <section id="order" class="d-flex js-cont-center al-items-center width-100pers m-0 color-303846 bg-f7f7f7">
             <div class="content-item d-flex f-dir-column js-cont-center">
                 <h2 class="d-flex al-items-center js-cont-center">Оставьте заявку сегодня!</h2>
                 <form>
@@ -78,7 +78,7 @@
                         <legend class="color-49dcc0 f-size-24"><strong>Параметры квартиры</strong></legend>
                         <div class="d-flex f-dir-row al-items-center m-5">
                             <div class="d-flex flex-1">
-                                <labelfor="room"><strong>Количество комнат:</strong></label>
+                                <label for="room"><strong>Количество комнат:</strong></label>
                             </div>
                             <div class="d-flex flex-1 r-reverse">
                                 <select class="bg-white  b-style-solid b-color-grey b-width-1 b-radius-10 width-150 height-30 f-size-14" id="room" name="room-count">
@@ -128,9 +128,8 @@
                             </div>
                         </div>
                     </fieldset>
-                    <button type="submit" class="btn d-flex js-cont-center al-items-center b-color-49dcc0 color-49dcc0"><strong>Отправить</strong></button>
+                    <button type="submit" class="btn btn-link d-flex js-cont-center al-items-center b-color-49dcc0 color-49dcc0"><strong>Отправить</strong></button>
                 </form>
-                
             </div>
         </section>
     </main>
@@ -144,14 +143,14 @@
                 <span class="f-size-14 color-white">&#169; 2032 год</span>
             </div>
             <div class="d-flex al-items-center js-cont-center flex-1 f-dir-column">
-                <h3 class="color-white">Проектная документация</h2>
+                <h3 class="color-white">Проектная документация</h3>
                 <ul class="f-size-14 color-white">
                     <li>Скачать</li>
                     <li>Посмотреть на сайте</li>
                 </ul>
             </div>
             <div class="d-flex al-items-center js-cont-center flex-1 f-dir-column">
-                <h3 class="color-white">О застройщике</h2>
+                <h3 class="color-white">О застройщике</h3>
                 <ul class="f-size-14 color-white">
                     <li>Отзывы</li>
                     <li>Сайт компании</li>
