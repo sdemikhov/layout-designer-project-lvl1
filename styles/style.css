@@ -88,8 +88,16 @@
 
 
 /* padding */
+.p-3 {
+    padding: 3px;
+}
+
 .p-5 {
     padding: 5px;
+}
+
+.p-20 {
+    padding: 20px;
 }
 
 .p-right-10{
@@ -112,6 +120,10 @@
 /* margin */
 .m-top-0 {
     margin-top: 0px;
+}
+
+.m-bottom-5 {
+    margin-bottom: 5px;
 }
 
 .m-0 {
@@ -225,6 +237,7 @@
 }
 
 .nav-link {
+    font-weight: bold;
 }
 
 .nav-link:link { color: #303846; }
