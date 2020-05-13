@@ -228,11 +228,10 @@
     height: var(--header-height);
     color: var(--dark-grey);
     background: var(--white);
+    box-sizing: border-box;
 }
 
-
-
-.btn-white {
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,19 +241,14 @@
     font-weight: bold;
     cursor: pointer;
     border-radius: 15px;
+}
+
+.btn-white {
     color: var(--white);
     border-color: var(--white);
 }
 
 .btn-green {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0);
-    border: 2px solid;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 15px;
     color: var(--green);
     border-color: var(--green);
 }
